@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Maps to Calendar",
+  "version": "0.1",
+  "description": "For inserting Google Calendar event from Google Maps Preview.",
+  "icons": {
+    "128": "Calendar-Add-128x128.png"
+  },
+  "page_action": {
+    "default_icon": "Calendar-Add-128x128.png",
+    "default_title": "Add Calendar"
+  },
+  "permissions": [
+    "tabs",
+    "https://www.google.com/maps/"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
